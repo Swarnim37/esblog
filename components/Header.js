@@ -9,7 +9,7 @@ const Header = () => {
           <div className="logo ">
             <Image width={200} height={40} src="/img/logosvg.svg" alt="logo" />
             <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 ">
-              <span className="ml-3 text-xl">Sanatan Astrology</span>
+              <span className="ml-3 text-xl">Astrología Sanatan</span>
             </a>
           </div>
         </Link>
@@ -17,27 +17,27 @@ const Header = () => {
         <>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center font-bold ">
             <Link href="/">
-              <a className="mr-5 hover:text-gray-900">Home</a>
+              <a className="mr-5 hover:text-gray-900">Inicio</a>
             </Link>
-            <Link href="https://www.sanatanved.com/">
+            <Link href="https://es.sanatanved.com/">
               <a target="_blank" className="mr-5 hover:text-gray-900">
-                Main-Website
+                La página web principal
               </a>
             </Link>
-            <Link href="https://www.sanatanved.com/services">
+            <Link href="https://es.sanatanved.com/services">
               <a target="_blank" className="mr-5 hover:text-gray-900">
-                Services
+                Servicios
               </a>
             </Link>
-            <Link href="https://www.sanatanved.com/courses">
+            <Link href="https://es.sanatanved.com/courses">
               <a target="_blank" className="mr-5 hover:text-gray-900">
-                Courses
+                Cursos
               </a>
             </Link>
 
-            <Link href="https://www.sanatanved.com/contact">
+            <Link href="https://es.sanatanved.com/contact">
               <a target="_blank" className="mr-5 hover:text-gray-900">
-                Contact
+                Contacto
               </a>
             </Link>
           </nav>
